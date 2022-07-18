@@ -32,3 +32,19 @@ body{
 div img{
     border-radius: 50%;
 }
+/* first container  */
+.body-section{
+    background-color: #FFFFFF; width: 870px; margin-left: 230px;
+}
+.player-list{
+    padding-top: 33px; padding-left: 80px; font-weight: 600px; font-size: 24px; color: #562EFF;
+}
+.container{
+    display: grid; grid-template-columns: repeat(3, 1fr);
+}
+.container div{
+    display: flex; justify-content: center; align-items: center;
+}
+.container div img{
+    height: 56px; width: 56px; margin-right: 20px;
+}
