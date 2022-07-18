@@ -1,0 +1,34 @@
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Gentium+Book+Plus&family=Kanit&family=Oswald&family=Poppins&family=Raleway&family=Solway&display=swap');
+/* body style    */
+body{
+    margin: 0; background-color:  #E5E5E5;; padding: 0; font-style: font-family: 'Bitter', serif;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Solway', serif;; 
+}
+/*header section*/
+.navigation{
+    display: flex; align-items: center; justify-content: space-around; background-color: #562EFF; color: #FFFFFF;
+}
+.with-icon{
+    display: flex; align-items: center;
+}
+.with-icon p{
+    margin-left: 15px; font-size: 24px; font-weight: 600px;
+}
+.with-anhore{
+   display: flex; align-items: center; 
+}
+.anhore{
+    text-decoration: none; margin-right: 35px;color: #FFFFFF;
+}
+.header-photo{
+    height: 51px; width: 51px;
+}
+div img{
+    border-radius: 50%;
+}
